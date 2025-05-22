@@ -23,7 +23,10 @@ Este proyecto es una tarjeta digital interactiva diseñada especialmente para un
 
 ## Captura de pantalla
 
-![Vista previa del proyecto](/invitaciones-digitales-fer.github.io_invitacion-esmeralda_.png)
+![Vista previa del proyecto Movil](/SCREENSHOT-MOBILE.png)
+![Vista previa del proyecto Tablet](/SCREENSHOT-TABLET.png)
+![Vista previa del proyecto Desktop](/SCREENSHOT-DESKTOP.png)
+
 
 ## Reflexión personal
 
