@@ -196,7 +196,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom right, #989898, #002775);
+    background: linear-gradient(to bottom right, #19ffd1, #0000006d);
     color: white;
     display: flex;
     justify-content: center;
@@ -207,7 +207,7 @@ p {
 .welcome-content {
     text-align: center;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 56, 141, 0.1);
     backdrop-filter: blur(8px);
     border-radius: 1rem;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
@@ -219,9 +219,9 @@ p {
 }
 
 #welcome-overlay button {
-    background: #ffffff;
+    background: #029eff;
     color: #000408;
-    border: none;
+    border: 1 px solid ;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     border-radius: 2rem;
@@ -457,7 +457,6 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.5;
-    /* ajustá la transparencia acá */
     z-index: -1;
 }
 
@@ -550,7 +549,6 @@ p {
     height: 100%;
     pointer-events: none;
     z-index: 100;
-    /* o más alto si no se ve */
 }
 
 

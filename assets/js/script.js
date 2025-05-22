@@ -88,7 +88,7 @@ const magicMusic = document.getElementById('magic-music'); // Referencia al nuev
 const magicMusicToggle = document.getElementById('magic-music-toggle'); // Referencia al nuevo botón
 let isMagicMusicPlaying = false; // Estado de la música mágica
 
-// Asegúrate de que magicMusic exista y no esté en conflicto
+
 if (magicMusic) {
   magicMusic.volume = 0.3; // Volumen para la música mágica (ajusta a tu gusto)
   magicMusicToggle.addEventListener('click', () => {
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
       shape: {
         type: ["char", "star", "circle"],
         character: {
-          value: ["❤️", "💗"],
+          value: ["❤️", "💗", "🎈", "🎉", "✨"],
           font: "Segoe UI Emoji",
           style: "",
           weight: "400",
