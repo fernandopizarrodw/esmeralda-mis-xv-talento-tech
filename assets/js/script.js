@@ -133,11 +133,11 @@ document.addEventListener("DOMContentLoaded", function () {
     background: { color: "transparent" },
     particles: {
       number: { value: 90, density: { enable: true, area: 700 } },
-      color: { value: ["#0000FF", "#FFD700"] },
+      color: { value: ["#0000FF", "#FFD700", "#EE82EE", "#7B68EE", "#ADFF2F", "#00FFFF", "#778899", "#2F4F4F", "FFFFFF", "DCDCDC"] },
       shape: {
-        type: ["char", "star"],
+        type: ["char", "star", "circle"],
         character: {
-          value: ["💙", "💛"],
+          value: ["❤️", "💗"],
           font: "Segoe UI Emoji",
           style: "",
           weight: "400",
@@ -249,8 +249,8 @@ document.getElementById("magicBtn").addEventListener("click", () => {
 const magicThemes = [
   {
     name: "Estrellas doradas",
-    shape: { type: "star" },
-    color: ["#0000FF", "#FFD700"],
+    shape: { type: ["star", "circle"] },
+    color: ["#0000FF", "#FFD700", "#EE82EE", "#7B68EE"],
     speed: 1.5
   },
   {
